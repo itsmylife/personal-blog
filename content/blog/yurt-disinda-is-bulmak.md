@@ -27,7 +27,7 @@ Yazilari hazir ettikce asagiya da linklerini ekleyecegim.
 - Teklif
   - Kabul etmek
   - Reddetmek
-  - Karsi teklik sunmak
+  - Karsi teklif sunmak
 - Burokratik isler
   - Vize
   - Ev bulma / Evi tasima
