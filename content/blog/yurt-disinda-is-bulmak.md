@@ -10,7 +10,7 @@ Bu yaziyi bir kac bolume ayiracagim ki benim icin yazmasi,  sizin icin okumasi k
 
 Yazilari hazir ettikce asagiya da linklerini ekleyecegim. 
 
-- [Karar vermek](./yurt-disinda-calismaya-karar-vermek/)
+- [Karar vermek](.././yurt-disinda-calismaya-karar-vermek/)
 - Hazirlik
   - Dil ogrenmek. 
   - Online profil olusturmak
