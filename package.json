@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "ismail-simsek-dev-notes",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "development and learning notes from ismail simsek",
   "version": "0.1.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "ismail simsek",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

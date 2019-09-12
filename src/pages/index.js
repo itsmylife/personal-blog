@@ -7,12 +7,13 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Developer Notes"
+    const siteTitle = "Development Notes"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Home"
+          title="Development Notes"
+          description="notes about development and learning from ismail simsek"
           keywords={[`blog`, `gatsby`, `javascript`, `react`, `typescript`]}
         />
         <i>TODO: insert funny developer joke/meme in here</i>

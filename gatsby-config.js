@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Developer Notes`,
+    title: `Development Notes`,
     author: `ismail simsek`,
     description: `Things about development and learning`,
     siteUrl: `https://ismailsimsek.netlify.com/`,
