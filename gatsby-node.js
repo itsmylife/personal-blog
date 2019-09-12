@@ -58,6 +58,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
+    console.log(node)
     const slug = createFilePath({ node, getNode })
     const match = BLOG_POST_FILENAME_REGEX.exec(slug)
     if (match !== null) {

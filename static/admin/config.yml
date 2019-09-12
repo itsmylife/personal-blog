@@ -9,6 +9,7 @@ collections:
   - name: blog
     label: Blog
     folder: content/blog
+    preview_path: blog/{{slug}}
     create: true
     fields:
       - { name: path, label: Path }
