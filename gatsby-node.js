@@ -58,7 +58,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    console.log(node)
     const slug = createFilePath({ node, getNode })
     const match = BLOG_POST_FILENAME_REGEX.exec(slug)
     if (match !== null) {
@@ -71,7 +70,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         name: `slug`,
         node,
-        value: `/blog/${filename}`,
+        value: `/blog/${filename}/${slug}`,
       })
 
       createNodeField({
@@ -83,7 +82,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         name: `slug`,
         node,
-        value: slug,
+        value: `${slug}/indexx`,
       })
     }
   }
