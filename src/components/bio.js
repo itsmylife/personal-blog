@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { graphql, StaticQuery } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
 
@@ -34,12 +34,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              Written by <strong>{author}</strong>
+              <br />
+              <a href={`https://twitter.com/${social.twitter}`}>Twitter </a>
+              {` | `}
+              <a href={`https://github.com/${social.github}`}>Github </a>
             </p>
           </Container>
         )
@@ -49,23 +48,23 @@ function Bio() {
 }
 
 const bioQuery = graphql`
-  query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
+    query BioQuery {
+        avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+            childImageSharp {
+                fixed(width: 50, height: 50) {
+                    ...GatsbyImageSharpFixed
+                }
+            }
         }
-      }
-    }
-    site {
-      siteMetadata {
-        author
-        social {
-          twitter
+        site {
+            siteMetadata {
+                author
+                social {
+                    twitter
+                }
+            }
         }
-      }
     }
-  }
 `
 
 const Container = styled.div`
