@@ -12,7 +12,7 @@ Yazilari hazir ettikce asagiya da linklerini ekleyecegim.
 
 - [Karar vermek](.././yurt-disinda-calismaya-karar-vermek/)
 - Hazirlik
-  - Dil ogrenmek. 
+  - [Dil ogrenmek](.././yurt-disinda-is-bulmak-icin-dil-ogrenmek/)
   - Online profil olusturmak
   - CV hazirlamak
   - Basvuru yapmak
