@@ -39,10 +39,11 @@ Evet. Daha cok mulakata katilmak hem mulakat tecrubenizi arttiracak hem de belli
 ### Her mulakati kayit altina almak `***`
 Ben tum mulakatlarimin ses kayitlarini alip mulakat sonrasinda bir kere daha dinleyip dogru/yanlis olan yerleri, nerelerde hata yaptigimi tespit edip bu noktalar uzerinde calisirdim. Kendinizi duyun ve elestirin. Nerede ne gibi seyler soyleyebileceginize calisin. Akliniza kullanmak istediginiz kelimenin ingilizcesi gelmiyorsa benzer baska kelime ya da durumla kendinizi aciklayin. Iste bu gibi durumlarin unutulmamasi icin mulakatlari kayit etmek oldukca faydali.
 
-### Cok fazla kafaya takmamak `*****`
+### Cok fazla kafaya takmamak *****
 Emin olun, kimse sizin ingilizcenizin mukemmel olmasini beklemiyor. Sizden beklenen; "sorunlari ile ilgili sorular sorabilsin", "kendisine soru soruldugunda meramini aciklayabilsin", "emaillere cevap verebilsin", "utangac, icine kapanik olmasin" vs vs. Temel seyler. Konusmayi cok kafaniza takarsaniz, konusamazsiniz. must miydi have to muydu o muydu bu muydu demeden konusun gitsin. He yerine she demeniz ya da he swim demeniz aktarmak istediginiz durumu degistirmeyecek. O yuzuyor. Sonunda s olsa da olmasada. Bitti gitti. Konusun. Konustukca yerli yerine oturacak. 
 
-#### Yasanmis ornek durum
+---
+
 Mulakata girdim. Elendim. Ses kaydim vardi. Dinledim. Kendime 10dk tahammul edemedim. Karsimdakiler yarim saat gene iyi dayanmislar. 8 ay sonra tekrar ayni sirketle mulakata girdim. BU defa tum adimlardan gectim ve ise alindim. Ancak bir sorun vardi. Mulakatta ingilizce konusmak ile insanlarla iletisim kuracagin ingilizceyi konusmak bambaska. Mulakat belli. Gelecek sorular, verebilecegin cevaplar vs. Ilk bir kac ay oldukca geveledim. Toplantilar da bile bir kac cumle soyleyip kestirip atiyordum. Konusamiyordum resmen. Baska sebepler de vardi elbette ama bunlari atliyorum. Fakat (iyi calistiginiz surece) bu durum gormezden gelinecektir. Daha sonra beni bir arkadasim uyardi. Sonia'ya buradan tekrar tesekkur etmek istiyorum. Kisaca bana rahat ol dedi. Takma kafana dedi ve kafamda kurdugum seyleri kirmama yardimci oldu. Bana gore herkes muthis ingilizce konusuyordu ama aslinda kimse mukkemmel degildi. Etrafimda Amerikali ya da Ingiliz yoktu. Rus, Alman, Ukraynali, Iranli, Brezilyali, Fransiz insanlar vardi. Hic biri mukemmel degildi. Bunu farkedince hersey duzeldi (zamanla). 
 
 Yani isi almaniz icin mukkemmel konusmaniza gerek yok. Bir sekilde iletisim konusun yeter. En nihayetinde soyle insanlarla iletisim kuracaksiniz.
