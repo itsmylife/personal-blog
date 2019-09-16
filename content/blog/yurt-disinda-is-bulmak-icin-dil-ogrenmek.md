@@ -18,13 +18,13 @@ Gramatik olarak iyi durumdaydim. must ile have to arasindaki farki biliyor, nere
 
 Simdi gayet normal, bence hala iyi seviyede olmasa da, rahat sekilde iletisim kurabiliyorum. Ne yaptim?
 
-### Ingilizce kitap okumak `**`
+### Ingilizce kitap okumak * *
 Gunde yaklasik 4 saatim yolda geciyordu. Zaten kitap okuyordum bu surede. Edebi olmayan ingilizce kitaplari okumaya basladim.  Once Isaac Asimov'un Vakif serisi ile basladim. Bu mu edebi degil dediginizi duyar gibiyim. Merak etmeyin okuyamadim zaten. Hic birsey anlamiyordum okudugumdan. Bu boyle olmayacak deyip Michio Kaku'nun kitaplarini okumaya basladim. Hep edebi eser degil hem de yazdiklari benim ilgi alanima girdigi icin dediklerinin cogunu anlayabiliyordum. Bu da insana "oha anliyorum resmen" ozguveni veriyor. Bir kac kitaptan sonra konusmanizdaki ilerlemeyi farkedeceksiniz.
 
-### Yabanci dizi film izlemek `*`
+### Yabanci dizi film izlemek *
 Hepimiz bunu yapiyoruz zaten. Ama altyazilari tamamen kaldirip izleyeceksiniz. Kulaklikla. Tamamen konsantre olarak. Aksiyon filmleri bu isler icin bicilmis kaftan. Kurgu zaten bellidir. Ne olacagini az cok kestirisiniz. Illaki "it's gonna be alright" lafi gecer. Anlarsiniz yani. Konusulani anlamak ve duymak, tonlamalari nasil yapacaginizi, vurguyu nereye vereceginizi oturtmaniza yariyor. Ama bunu ders isler yapmamalisiniz. Birakin filmden zevk alin. Anlattiklarim zaten gerceklesecek zamanla. Ayrica alt yazi arama derdinden de kurtulmus olursunuz. 
 
-### Yabancilarla sohbet etmek `****`
+### Yabancilarla sohbet etmek * * * *
 Sanslisiniz ki artik internet dunyanin en ucra koselerinde bile mevcut. Ve ingilizce ogrenmek/ogretmek isteyen, bir suru insan var. Bu kisilerle goruntulu sohbet edebilirsiniz. Ya da haftanin belli saatlerinde ingilizce egitimi veren kisilerden egitim alabilirsiniz. Tum bunlar Skype uzerinden gerceklesiyor. Oturdugunuz yerden, size uygun olan saatte ve sizin kendi sectiginiz ogretici ile sohbet ediyorsunuz. Kendi seviyenize gore. Bire bir. Google'a "english talking over skype" yazmaniz yeterli. Ya da buna benzer baska arama terimleri. Yiginla websitesi bulacaksiniz. 
 
 ### Podcast dinlemek
@@ -36,10 +36,10 @@ Buyuk sehirlerde yasiyorsaniz mutlaka konusma gruplari vardir. Bu gruplar belli 
 ### Daha cok yurtdisi mulakata katilmak
 Evet. Daha cok mulakata katilmak hem mulakat tecrubenizi arttiracak hem de belli sorulara vereceginiz cevaplari zenginlestirmenize yardimci olacak. Verdiginiz cevaplari ezberden degil o anda dusunerek soyleyeceksiniz. Bir arkadasim bana mulakatlar sayesinde ingilizcesinin gelistigini soylemisti. Hatta is bile buldu.
 
-### Her mulakati kayit altina almak `***`
+### Her mulakati kayit altina almak * * *
 Ben tum mulakatlarimin ses kayitlarini alip mulakat sonrasinda bir kere daha dinleyip dogru/yanlis olan yerleri, nerelerde hata yaptigimi tespit edip bu noktalar uzerinde calisirdim. Kendinizi duyun ve elestirin. Nerede ne gibi seyler soyleyebileceginize calisin. Akliniza kullanmak istediginiz kelimenin ingilizcesi gelmiyorsa benzer baska kelime ya da durumla kendinizi aciklayin. Iste bu gibi durumlarin unutulmamasi icin mulakatlari kayit etmek oldukca faydali.
 
-### Cok fazla kafaya takmamak *****
+### Cok fazla kafaya takmamak * * * * * 
 Emin olun, kimse sizin ingilizcenizin mukemmel olmasini beklemiyor. Sizden beklenen; "sorunlari ile ilgili sorular sorabilsin", "kendisine soru soruldugunda meramini aciklayabilsin", "emaillere cevap verebilsin", "utangac, icine kapanik olmasin" vs vs. Temel seyler. Konusmayi cok kafaniza takarsaniz, konusamazsiniz. must miydi have to muydu o muydu bu muydu demeden konusun gitsin. He yerine she demeniz ya da he swim demeniz aktarmak istediginiz durumu degistirmeyecek. O yuzuyor. Sonunda s olsa da olmasada. Bitti gitti. Konusun. Konustukca yerli yerine oturacak. 
 
 ---
