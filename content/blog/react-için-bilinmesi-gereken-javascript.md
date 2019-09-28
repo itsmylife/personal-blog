@@ -3,8 +3,8 @@ path: React için bilinmesi gereken JavaScript
 date: 2019-09-12T19:38:11.753Z
 title: React için bilinmesi gereken JavaScript
 description: >-
-  React’i öğrenirken ve kullanırken hangı JavaScript özelliklerini biliyor
-  olmalısınız
+  React’i öğrenirken ve kullanırken hangi JavaScript özelliklerini biliyor
+  olmalısınız?
 ---
 
 Makalenin İngilizce aslı: [JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
