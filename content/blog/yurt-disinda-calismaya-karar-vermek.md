@@ -1,38 +1,38 @@
 ---
 path: Yurt disina gitmeye karar vermek
 date: 2019-09-12T20:13:27.527Z
-title: Yurt disinda calismaya karar vermek
+title: Yurt dışında çalışmaya karar vermek
 description: >-
-  Ulke degistireceksiniz. Kolay bir karar degil. Pek cok farkli degisken var.
+  Ülke değiştireceksiniz. Kolay bir karar değil. Pek çok farklı değişken var.
   Hadi inceleyelim.
 ---
-Ulkemizin durumu malumunuz. Belki bir kac yil sonra bu yaziyi okudugumuzda donup guleriz ama simdilik gulemiyoruz. Her gun esimiz, isimiz ve kendi gelisimimiz disinda dusunmemiz, hesap etmemiz gereken tonla seye maruz kaliyoruz.
+Ülkemizin durumu malumunuz. Belki bir kaç yıl sonra bu yazıyı okuduğumuzda dönüp güleriz ama şimdilik gülemiyoruz. Her gün eşimiz, işimiz ve kendi gelişimimiz dışında düşünmemiz, hesap etmemiz gereken tonla şeye maruz kalıyoruz.
 
-Ben bu duruma kendi acimdan ornek vereyim. Istanbulda yasiyordum. Kartal'da oturup Kabatas'a gidip geliyordum hergun. Sabahlari esim beni arabayla metro istasyonuna birakiyordu. Kartal metro ile Kadikoy'e ulasiyordum. Oradan vapur ile Eminonu ya da Karakoy (Cunku Kabatas iskelesini martiya cevirmeye calisiyorlar). Oradan tramvay ile Kabatas. Sonra 5 dakikalik bir yuruyus. Aksama bunun tam tersi. Toplam 4-5 saat yola geciyor demektir bu. 
+Ben bu duruma kendi açımdan ornek vereyim. İstanbul'da yaşıyordum. Kartal'da oturup Kabataş'a gidip geliyordum her gün. Sabahları eşim beni arabayla metro istasyonuna bırakıyordu. Kartal metro ile Kadıköy'e ulaşıyordum. Oradan vapur ile Eminönü ya da Karaköy (Çünkü Kabataş iskelesini martıya çevirmeye çalışıyorlar). Oradan tramvay ile Kabataş. Sonra 5 dakikalık bir yürüyüş. Aksama bunun tam tersi. Toplam 4-5 saat yolda geçiyor demektir bu. 
 
-- Arabayla sag salim metro istasyonuna varabilecek miyiz ya da kac dakikada varabilecegiz?
+- Arabayla sağ salim metro istasyonuna varabilecek miyiz ya da kaç dakikada varabileceğiz?
 - Metroya binebilecek miyim?
-- Metroya binmek icin beklerken bazi okuzler sirami gaspedebilirler tetikte olmaliyim.
-- Bindikten sonra en azindan ayakta kalip kitap okuyabilecek bosluk bulabilecek miyim?
-- Yuksek sesle muzik dinleyen hirbolara nasil davranmak lazim?
-- Cantami, cuzdanimi ve telefonumu kolacan etmeliyim.
-- Hava yagmurluysa vapur seferleri iptal edilmis olabilir. Bu durumda marmaray cilesi mevcut. Bu apayri soru isaretleri doguruyor.
-- Donuste karsidan karsiya gecerken yaya gecidinin ustune parketmis meyve satan adami nereye sikayet etmeliyim?
+- Metroya binmek için beklerken bazı öküzler sıramı gasp edebilirler, tetikte olmalıyım.
+- Bindikten sonra en azından ayakta kalıp kitap okuyabilecek boşluk bulabilecek miyim?
+- Yüksek sesle müzik dinleyen hırbolara nasıl davranmak lazım?
+- Çantamı, cüzdanımı ve telefonumu kolaçan etmeliyim.
+- Hava yağmurluysa vapur seferleri iptal edilmiş olabilir. Bu durumda Marmaray çilesi mevcut. Bu apayrı soru işaretleri doğuruyor.
+- Dönüşte karşıdan karşıya geçerken yaya geçidinin üstüne park etmiş meyve satan adamı nereye şikayet etmeliyim?
 - vs vs..
 
-Bunlar sadece yolculuk esnasindaki dusuncelerin bir kismi. Daha niceleri var. En son noktada kendi insanimdan nefret eder hale gelmistim. Eve surekli sinirli geliyordum. Isimi, is arkadaslarimi, cok seviyordum ancak hayatima ben istemeden dahil olan ucuncu parti kisiler benim yasam alanima tecavuz etmeye baslamislardi. En azindan ben gormezden gelemiyordum. 
+Bunlar sadece yolculuk esnasındaki düşüncelerin bir kısmı. Daha niceleri var. En son noktada kendi insanımdan nefret eder hale gelmiştim. Eve sürekli sinirli geliyordum. İşimi, iş arkadaşlarımı, çok seviyordum ancak hayatıma ben istemeden dahil olan üçüncü parti kişiler benim yaşam alanıma tecavüz etmeye başlamışlardı. En azından ben görmezden gelemiyordum. 
 
-Dunyanin herhangi bir yerinde yasayabilecekken neden Kartal'da yasayayim?
+Dünyanın herhangi bir yerinde yasayabilecekken neden Kartal'da yaşayayım?
 
-Iste bu soru herseyi degistirdi. 
+İşte bu soru her şeyi değiştirdi. 
 
-Kartal'dan once Sultanbeyli'de oturuyordum. Sultanbeyli'den Kabatas'a gidip gelme konusuna hic girmiyorum.
+Kartal'dan önce Sultanbeyli'de oturuyordum. Sultanbeyli'den Kabataş'a gidip gelme konusuna hiç girmiyorum.
 
-### Siz karar verdiniz, ya esiniz?
-Evliyseniz ve esiniz gitmeye yanasmiyorsa hic bu ise girismeyin. Acik ve net. Inanin bana gidince de sevmeyecektir ne kadar park bahce yesillik ozgurluk olsa da. Oncelikle onun da bunu istemesi gerekiyor. Evliyseniz bu tek basiniza alabileceginiz bir karar degil. Ikna etmeye calismayin. Onun da istemesini saglamaniz lazim. Motivasyon disaridan degil iceriden gelmeli. 
+### Siz karar verdiniz, ya eşiniz?
+Evliyseniz ve eşiniz gitmeye yanaşmıyorsa hiç bu işe girişmeyin. Açık ve net. İnanin bana gidince de sevmeyecektir ne kadar park bahçe yeşillik, özgürlük olsa da. Öncelikle onun da bunu istemesi gerekiyor. Evliyseniz bu, tek başınıza alabileceğiniz bir karar değil. İkna etmeye çalışmayın. Onun da istemesini sağlamanız lazım. Motivasyon dışarıdan değil içeriden gelmeli. 
 
 ### Artilar eksiler
-Baska bir ulkede yasamak pek cok acidan cok zor. Neyi nereden alacaginizi dahi bilemiyorsunuz. Internetten her seyi ogrenebilirsiniz ancak bunun da bir siniri var biliyorsunuz. Her ulkenin burokrasisi, kulturu ve sosyal iliskileri farkli. Her bir maddeyi arti eksi seklinde yazip degerlendirmeniz gerekiyor. Realist olmakta fayda var. Tamam cok guzel yesil ile ic ice sehirler, bisiklet yollari, vizesiz seyehat olanagi vs guzel ama realizm bizi daha cok mutlu eder. Peki nedir bu maddeler?
+Başka bir ulkede yasamak pek cok acidan cok zor. Neyi nereden alacaginizi dahi bilemiyorsunuz. Internetten her seyi ogrenebilirsiniz ancak bunun da bir siniri var biliyorsunuz. Her ulkenin burokrasisi, kulturu ve sosyal iliskileri farkli. Her bir maddeyi arti eksi seklinde yazip degerlendirmeniz gerekiyor. Realist olmakta fayda var. Tamam cok guzel yesil ile ic ice sehirler, bisiklet yollari, vizesiz seyehat olanagi vs guzel ama realizm bizi daha cok mutlu eder. Peki nedir bu maddeler?
 
 - Gidecegim yerin kulturu benim hayat anlayisima uygun mu?
   - Cok muhafazakar bir anlayisa sahipseniz Amsterdam, Berlin vs gibi yerleri tercih etmemeniz gerekir haliyle. Ya da cok gezeyim, her gece bir barda egleneyim kafasindaysaniz sakin sehirler sizi inanilmaz sikabilir.
