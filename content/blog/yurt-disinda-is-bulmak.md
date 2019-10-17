@@ -1,7 +1,7 @@
 ---
 path: yurt disinda is bulmak
 date: 2019-09-12T20:08:26.958Z
-title: Yurt disinda is bulmak
+title: Yurt dışında iş bulmak
 description: 'Yurt disinda is aramak, mulakatlara hazirlik, tasinma, yerlesme...'
 ---
 Bu yaziyi ingilizce klavye ile yazdigim icin Turkce karakterleri kullanamiyorum. Ancak dilerseniz _pull request_ yollayabilirsiniz. Memnuniyetle kabul ederim. 
