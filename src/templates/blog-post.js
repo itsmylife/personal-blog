@@ -5,19 +5,18 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-import { Disqus, CommentCount } from "gatsby-plugin-disqus"
+import { Disqus } from "gatsby-plugin-disqus"
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const url = typeof window !== "undefined" ? window.location.pathname : ""
     const disqusConfig = {
       identifier: post.id,
       title: post.title,
-      url: `${this.props.data.site.siteMetadata.siteUrl}${
-        window.location.pathname
-      }`,
+      url,
     }
 
     return (
