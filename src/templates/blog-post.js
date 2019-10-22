@@ -12,11 +12,12 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    const url = typeof window !== "undefined" ? window.location.pathname : ""
+    const pathname =
+      typeof window !== "undefined" ? window.location.pathname : ""
     const disqusConfig = {
       identifier: post.id,
-      title: post.title,
-      url,
+      title: post.frontmatter.title,
+      url: this.props.data.site.siteMetadata.siteUrl + pathname,
     }
 
     return (
@@ -44,13 +45,6 @@ class BlogPostTemplate extends React.Component {
         />
 
         <Disqus config={disqusConfig} />
-        {/* <Disqus
-          identifier={post.id}
-          title={post.title}
-          url={`${this.props.data.site.siteMetadata.siteUrl}${
-            window.location.pathname
-          }`}
-        /> */}
 
         <Bio />
 
