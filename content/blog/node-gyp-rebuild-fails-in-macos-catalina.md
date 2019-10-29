@@ -168,6 +168,6 @@ yarn install
 
 References:
 
-https://github.com/nodejs/node-gyp/issues/1927
-https://github.com/nodejs/node-gyp/issues/1779
-https://github.com/prebid/Prebid.js/issues/3878
+- https://github.com/nodejs/node-gyp/issues/1927
+- https://github.com/nodejs/node-gyp/issues/1779
+- https://github.com/prebid/Prebid.js/issues/3878
