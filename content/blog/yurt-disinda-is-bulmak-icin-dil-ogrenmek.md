@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: is bulmak icin dil ogrenmek
 date: 2019-09-16T21:12:19.549Z
 title: Yurt disinda is bulmak icin dil ogrenmek

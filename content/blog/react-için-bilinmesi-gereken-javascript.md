@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: React için bilinmesi gereken JavaScript
 date: 2019-09-12T19:38:11.753Z
 title: React için bilinmesi gereken JavaScript

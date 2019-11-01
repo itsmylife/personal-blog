@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: Bir yazılım mühendisi olarak nasıl deneyim edinebilirsiniz?
 date: 2019-09-12T19:26:40.718Z
 title: Bir yazılım mühendisi olarak nasıl deneyim edinebilirsiniz?

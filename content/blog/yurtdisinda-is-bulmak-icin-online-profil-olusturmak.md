@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: Yurtdisinda is bulmak icin online profil olusturmak
 date: 2019-09-28T16:09:29.423Z
 title: Yurtdisinda is bulmak icin online profil olusturmak

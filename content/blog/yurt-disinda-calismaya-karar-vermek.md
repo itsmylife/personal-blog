@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: Yurt disina gitmeye karar vermek
 date: 2019-09-12T20:13:27.527Z
 title: Yurt dışında çalışmaya karar vermek

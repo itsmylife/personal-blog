@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: node-gyp-rebuild-fails-in-macos-catalina
 date: 2019-10-29T21:21:21.204Z
 title: node-gyp rebuild fails in macOS Catalina

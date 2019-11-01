@@ -1,4 +1,5 @@
 ---
+author: simsekismail
 path: yurt disinda is bulmak
 date: 2019-09-12T20:08:26.958Z
 title: Yurt dışında iş bulmak
