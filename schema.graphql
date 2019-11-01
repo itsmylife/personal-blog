@@ -12,7 +12,7 @@ interface Node {
     parent: Node
 }
 
-type ContributorYaml implements Node {
+type AuthorsYaml implements Node {
     bio: String
     children: [Node!]!
     github: String
@@ -23,26 +23,26 @@ type ContributorYaml implements Node {
     twitter: String
 }
 
-type ContributorYamlConnection {
-    distinct(field: ContributorYamlFieldsEnum!): [String!]!
-    edges: [ContributorYamlEdge!]!
-    group(field: ContributorYamlFieldsEnum!, limit: Int, skip: Int): [ContributorYamlGroupConnection!]!
-    nodes: [ContributorYaml!]!
+type AuthorsYamlConnection {
+    distinct(field: AuthorsYamlFieldsEnum!): [String!]!
+    edges: [AuthorsYamlEdge!]!
+    group(field: AuthorsYamlFieldsEnum!, limit: Int, skip: Int): [AuthorsYamlGroupConnection!]!
+    nodes: [AuthorsYaml!]!
     pageInfo: PageInfo!
     totalCount: Int!
 }
 
-type ContributorYamlEdge {
-    next: ContributorYaml
-    node: ContributorYaml!
-    previous: ContributorYaml
+type AuthorsYamlEdge {
+    next: AuthorsYaml
+    node: AuthorsYaml!
+    previous: AuthorsYaml
 }
 
-type ContributorYamlGroupConnection {
-    edges: [ContributorYamlEdge!]!
+type AuthorsYamlGroupConnection {
+    edges: [AuthorsYamlEdge!]!
     field: String!
     fieldValue: String
-    nodes: [ContributorYaml!]!
+    nodes: [AuthorsYaml!]!
     pageInfo: PageInfo!
     totalCount: Int!
 }
@@ -234,7 +234,7 @@ type File implements Node {
     childImageSharp: ImageSharp
     childMarkdownRemark: MarkdownRemark
     children: [Node!]!
-    childrenContributorYaml: [ContributorYaml]
+    childrenAuthorsYaml: [AuthorsYaml]
     ctime(
         #Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\".
         difference: String,
@@ -518,7 +518,7 @@ type MarkdownRemarkFields {
 }
 
 type MarkdownRemarkFrontmatter {
-    author: ContributorYaml
+    author: AuthorsYaml
     date(
         #Returns the difference between this date and the current time. Defaults to \"milliseconds\" but you can also pass in as the measurement \"years\", \"months\", \"weeks\", \"days\", \"hours\", \"minutes\", and \"seconds\".
         difference: String,
@@ -559,7 +559,7 @@ type PageInfo {
 }
 
 type Query {
-    allContributorYaml(filter: ContributorYamlFilterInput, limit: Int, skip: Int, sort: ContributorYamlSortInput): ContributorYamlConnection!
+    allAuthorsYaml(filter: AuthorsYamlFilterInput, limit: Int, skip: Int, sort: AuthorsYamlSortInput): AuthorsYamlConnection!
     allDirectory(filter: DirectoryFilterInput, limit: Int, skip: Int, sort: DirectorySortInput): DirectoryConnection!
     allFile(filter: FileFilterInput, limit: Int, skip: Int, sort: FileSortInput): FileConnection!
     allImageSharp(filter: ImageSharpFilterInput, limit: Int, skip: Int, sort: ImageSharpSortInput): ImageSharpConnection!
@@ -567,9 +567,9 @@ type Query {
     allSite(filter: SiteFilterInput, limit: Int, skip: Int, sort: SiteSortInput): SiteConnection!
     allSitePage(filter: SitePageFilterInput, limit: Int, skip: Int, sort: SitePageSortInput): SitePageConnection!
     allSitePlugin(filter: SitePluginFilterInput, limit: Int, skip: Int, sort: SitePluginSortInput): SitePluginConnection!
-    contributorYaml(bio: StringQueryOperatorInput, children: NodeFilterListInput, github: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, parent: NodeFilterInput, twitter: StringQueryOperatorInput): ContributorYaml
+    authorsYaml(bio: StringQueryOperatorInput, children: NodeFilterListInput, github: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, name: StringQueryOperatorInput, parent: NodeFilterInput, twitter: StringQueryOperatorInput): AuthorsYaml
     directory(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, blksize: IntQueryOperatorInput, blocks: IntQueryOperatorInput, changeTime: DateQueryOperatorInput, children: NodeFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, gid: IntQueryOperatorInput, id: StringQueryOperatorInput, ino: IntQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): Directory
-    file(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, blksize: IntQueryOperatorInput, blocks: IntQueryOperatorInput, changeTime: DateQueryOperatorInput, childImageSharp: ImageSharpFilterInput, childMarkdownRemark: MarkdownRemarkFilterInput, children: NodeFilterListInput, childrenContributorYaml: ContributorYamlFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, gid: IntQueryOperatorInput, id: StringQueryOperatorInput, ino: IntQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, publicURL: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): File
+    file(absolutePath: StringQueryOperatorInput, accessTime: DateQueryOperatorInput, atime: DateQueryOperatorInput, atimeMs: FloatQueryOperatorInput, base: StringQueryOperatorInput, birthTime: DateQueryOperatorInput, birthtime: DateQueryOperatorInput, birthtimeMs: FloatQueryOperatorInput, blksize: IntQueryOperatorInput, blocks: IntQueryOperatorInput, changeTime: DateQueryOperatorInput, childImageSharp: ImageSharpFilterInput, childMarkdownRemark: MarkdownRemarkFilterInput, children: NodeFilterListInput, childrenAuthorsYaml: AuthorsYamlFilterListInput, ctime: DateQueryOperatorInput, ctimeMs: FloatQueryOperatorInput, dev: IntQueryOperatorInput, dir: StringQueryOperatorInput, ext: StringQueryOperatorInput, extension: StringQueryOperatorInput, gid: IntQueryOperatorInput, id: StringQueryOperatorInput, ino: IntQueryOperatorInput, internal: InternalFilterInput, mode: IntQueryOperatorInput, modifiedTime: DateQueryOperatorInput, mtime: DateQueryOperatorInput, mtimeMs: FloatQueryOperatorInput, name: StringQueryOperatorInput, nlink: IntQueryOperatorInput, parent: NodeFilterInput, prettySize: StringQueryOperatorInput, publicURL: StringQueryOperatorInput, rdev: IntQueryOperatorInput, relativeDirectory: StringQueryOperatorInput, relativePath: StringQueryOperatorInput, root: StringQueryOperatorInput, size: IntQueryOperatorInput, sourceInstanceName: StringQueryOperatorInput, uid: IntQueryOperatorInput): File
     imageSharp(children: NodeFilterListInput, fixed: ImageSharpFixedFilterInput, fluid: ImageSharpFluidFilterInput, id: StringQueryOperatorInput, internal: InternalFilterInput, original: ImageSharpOriginalFilterInput, parent: NodeFilterInput, resize: ImageSharpResizeFilterInput, resolutions: ImageSharpResolutionsFilterInput, sizes: ImageSharpSizesFilterInput): ImageSharp
     markdownRemark(children: NodeFilterListInput, excerpt: StringQueryOperatorInput, excerptAst: JSONQueryOperatorInput, fields: MarkdownRemarkFieldsFilterInput, fileAbsolutePath: StringQueryOperatorInput, frontmatter: MarkdownRemarkFrontmatterFilterInput, headings: MarkdownHeadingFilterListInput, html: StringQueryOperatorInput, htmlAst: JSONQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, parent: NodeFilterInput, rawMarkdownBody: StringQueryOperatorInput, tableOfContents: StringQueryOperatorInput, timeToRead: IntQueryOperatorInput, wordCount: MarkdownWordCountFilterInput): MarkdownRemark
     site(buildTime: DateQueryOperatorInput, children: NodeFilterListInput, host: StringQueryOperatorInput, id: StringQueryOperatorInput, internal: InternalFilterInput, mapping: SiteMappingFilterInput, parent: NodeFilterInput, pathPrefix: StringQueryOperatorInput, polyfill: BooleanQueryOperatorInput, port: IntQueryOperatorInput, siteMetadata: SiteSiteMetadataFilterInput): Site
@@ -769,30 +769,20 @@ type SitePluginPackageJsonPeerDependencies {
 }
 
 type SitePluginPluginOptions {
-    backgroundColor: String
     background_color: String
-    disableBgImageOnAlpha: Boolean
     display: String
     icon: String
-    ignoreFileExtensions: [String]
-    linkImagesToOriginal: Boolean
-    loading: String
-    markdownCaptions: Boolean
     maxWidth: Int
     name: String
     path: String
     pathCheck: Boolean
-    pathPrefix: String
     pathToConfigModule: String
     plugins: [SitePluginPluginOptionsPlugins]
     short_name: String
     shortname: String
-    showCaptions: Boolean
     start_url: String
     theme_color: String
-    tracedSVG: Boolean
     trackingId: String
-    withWebp: Boolean
     wrapperStyle: String
 }
 
@@ -808,17 +798,7 @@ type SitePluginPluginOptionsPlugins {
 }
 
 type SitePluginPluginOptionsPluginsPluginOptions {
-    backgroundColor: String
-    disableBgImageOnAlpha: Boolean
-    ignoreFileExtensions: [String]
-    linkImagesToOriginal: Boolean
-    loading: String
-    markdownCaptions: Boolean
     maxWidth: Int
-    pathPrefix: String
-    showCaptions: Boolean
-    tracedSVG: Boolean
-    withWebp: Boolean
     wrapperStyle: String
 }
 
@@ -835,7 +815,7 @@ type SiteSiteMetadataSocial {
     twitter: String
 }
 
-enum ContributorYamlFieldsEnum {
+enum AuthorsYamlFieldsEnum {
     bio
     children
     children___children
@@ -1217,49 +1197,49 @@ enum FileFieldsEnum {
     childMarkdownRemark___wordCount___sentences @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     childMarkdownRemark___wordCount___words @deprecated(reason : "Sorting on fields that need arguments to resolve is deprecated.")
     children
-    childrenContributorYaml
-    childrenContributorYaml___bio
-    childrenContributorYaml___children
-    childrenContributorYaml___children___children
-    childrenContributorYaml___children___children___children
-    childrenContributorYaml___children___children___id
-    childrenContributorYaml___children___id
-    childrenContributorYaml___children___internal___content
-    childrenContributorYaml___children___internal___contentDigest
-    childrenContributorYaml___children___internal___description
-    childrenContributorYaml___children___internal___fieldOwners
-    childrenContributorYaml___children___internal___ignoreType
-    childrenContributorYaml___children___internal___mediaType
-    childrenContributorYaml___children___internal___owner
-    childrenContributorYaml___children___internal___type
-    childrenContributorYaml___children___parent___children
-    childrenContributorYaml___children___parent___id
-    childrenContributorYaml___github
-    childrenContributorYaml___id
-    childrenContributorYaml___internal___content
-    childrenContributorYaml___internal___contentDigest
-    childrenContributorYaml___internal___description
-    childrenContributorYaml___internal___fieldOwners
-    childrenContributorYaml___internal___ignoreType
-    childrenContributorYaml___internal___mediaType
-    childrenContributorYaml___internal___owner
-    childrenContributorYaml___internal___type
-    childrenContributorYaml___name
-    childrenContributorYaml___parent___children
-    childrenContributorYaml___parent___children___children
-    childrenContributorYaml___parent___children___id
-    childrenContributorYaml___parent___id
-    childrenContributorYaml___parent___internal___content
-    childrenContributorYaml___parent___internal___contentDigest
-    childrenContributorYaml___parent___internal___description
-    childrenContributorYaml___parent___internal___fieldOwners
-    childrenContributorYaml___parent___internal___ignoreType
-    childrenContributorYaml___parent___internal___mediaType
-    childrenContributorYaml___parent___internal___owner
-    childrenContributorYaml___parent___internal___type
-    childrenContributorYaml___parent___parent___children
-    childrenContributorYaml___parent___parent___id
-    childrenContributorYaml___twitter
+    childrenAuthorsYaml
+    childrenAuthorsYaml___bio
+    childrenAuthorsYaml___children
+    childrenAuthorsYaml___children___children
+    childrenAuthorsYaml___children___children___children
+    childrenAuthorsYaml___children___children___id
+    childrenAuthorsYaml___children___id
+    childrenAuthorsYaml___children___internal___content
+    childrenAuthorsYaml___children___internal___contentDigest
+    childrenAuthorsYaml___children___internal___description
+    childrenAuthorsYaml___children___internal___fieldOwners
+    childrenAuthorsYaml___children___internal___ignoreType
+    childrenAuthorsYaml___children___internal___mediaType
+    childrenAuthorsYaml___children___internal___owner
+    childrenAuthorsYaml___children___internal___type
+    childrenAuthorsYaml___children___parent___children
+    childrenAuthorsYaml___children___parent___id
+    childrenAuthorsYaml___github
+    childrenAuthorsYaml___id
+    childrenAuthorsYaml___internal___content
+    childrenAuthorsYaml___internal___contentDigest
+    childrenAuthorsYaml___internal___description
+    childrenAuthorsYaml___internal___fieldOwners
+    childrenAuthorsYaml___internal___ignoreType
+    childrenAuthorsYaml___internal___mediaType
+    childrenAuthorsYaml___internal___owner
+    childrenAuthorsYaml___internal___type
+    childrenAuthorsYaml___name
+    childrenAuthorsYaml___parent___children
+    childrenAuthorsYaml___parent___children___children
+    childrenAuthorsYaml___parent___children___id
+    childrenAuthorsYaml___parent___id
+    childrenAuthorsYaml___parent___internal___content
+    childrenAuthorsYaml___parent___internal___contentDigest
+    childrenAuthorsYaml___parent___internal___description
+    childrenAuthorsYaml___parent___internal___fieldOwners
+    childrenAuthorsYaml___parent___internal___ignoreType
+    childrenAuthorsYaml___parent___internal___mediaType
+    childrenAuthorsYaml___parent___internal___owner
+    childrenAuthorsYaml___parent___internal___type
+    childrenAuthorsYaml___parent___parent___children
+    childrenAuthorsYaml___parent___parent___id
+    childrenAuthorsYaml___twitter
     children___children
     children___children___children
     children___children___children___children
@@ -1947,20 +1927,13 @@ enum SitePageFieldsEnum {
     pluginCreator___parent___parent___children
     pluginCreator___parent___parent___id
     pluginCreator___pluginFilepath
-    pluginCreator___pluginOptions___backgroundColor
     pluginCreator___pluginOptions___background_color
-    pluginCreator___pluginOptions___disableBgImageOnAlpha
     pluginCreator___pluginOptions___display
     pluginCreator___pluginOptions___icon
-    pluginCreator___pluginOptions___ignoreFileExtensions
-    pluginCreator___pluginOptions___linkImagesToOriginal
-    pluginCreator___pluginOptions___loading
-    pluginCreator___pluginOptions___markdownCaptions
     pluginCreator___pluginOptions___maxWidth
     pluginCreator___pluginOptions___name
     pluginCreator___pluginOptions___path
     pluginCreator___pluginOptions___pathCheck
-    pluginCreator___pluginOptions___pathPrefix
     pluginCreator___pluginOptions___pathToConfigModule
     pluginCreator___pluginOptions___plugins
     pluginCreator___pluginOptions___plugins___browserAPIs
@@ -1972,12 +1945,9 @@ enum SitePageFieldsEnum {
     pluginCreator___pluginOptions___plugins___version
     pluginCreator___pluginOptions___short_name
     pluginCreator___pluginOptions___shortname
-    pluginCreator___pluginOptions___showCaptions
     pluginCreator___pluginOptions___start_url
     pluginCreator___pluginOptions___theme_color
-    pluginCreator___pluginOptions___tracedSVG
     pluginCreator___pluginOptions___trackingId
-    pluginCreator___pluginOptions___withWebp
     pluginCreator___pluginOptions___wrapperStyle
     pluginCreator___resolve
     pluginCreator___ssrAPIs
@@ -2091,49 +2061,29 @@ enum SitePluginFieldsEnum {
     parent___parent___parent___children
     parent___parent___parent___id
     pluginFilepath
-    pluginOptions___backgroundColor
     pluginOptions___background_color
-    pluginOptions___disableBgImageOnAlpha
     pluginOptions___display
     pluginOptions___icon
-    pluginOptions___ignoreFileExtensions
-    pluginOptions___linkImagesToOriginal
-    pluginOptions___loading
-    pluginOptions___markdownCaptions
     pluginOptions___maxWidth
     pluginOptions___name
     pluginOptions___path
     pluginOptions___pathCheck
-    pluginOptions___pathPrefix
     pluginOptions___pathToConfigModule
     pluginOptions___plugins
     pluginOptions___plugins___browserAPIs
     pluginOptions___plugins___id
     pluginOptions___plugins___name
     pluginOptions___plugins___pluginFilepath
-    pluginOptions___plugins___pluginOptions___backgroundColor
-    pluginOptions___plugins___pluginOptions___disableBgImageOnAlpha
-    pluginOptions___plugins___pluginOptions___ignoreFileExtensions
-    pluginOptions___plugins___pluginOptions___linkImagesToOriginal
-    pluginOptions___plugins___pluginOptions___loading
-    pluginOptions___plugins___pluginOptions___markdownCaptions
     pluginOptions___plugins___pluginOptions___maxWidth
-    pluginOptions___plugins___pluginOptions___pathPrefix
-    pluginOptions___plugins___pluginOptions___showCaptions
-    pluginOptions___plugins___pluginOptions___tracedSVG
-    pluginOptions___plugins___pluginOptions___withWebp
     pluginOptions___plugins___pluginOptions___wrapperStyle
     pluginOptions___plugins___resolve
     pluginOptions___plugins___ssrAPIs
     pluginOptions___plugins___version
     pluginOptions___short_name
     pluginOptions___shortname
-    pluginOptions___showCaptions
     pluginOptions___start_url
     pluginOptions___theme_color
-    pluginOptions___tracedSVG
     pluginOptions___trackingId
-    pluginOptions___withWebp
     pluginOptions___wrapperStyle
     resolve
     ssrAPIs
@@ -2145,14 +2095,7 @@ enum SortOrderEnum {
     DESC
 }
 
-input BooleanQueryOperatorInput {
-    eq: Boolean
-    in: [Boolean]
-    ne: Boolean
-    nin: [Boolean]
-}
-
-input ContributorYamlFilterInput {
+input AuthorsYamlFilterInput {
     bio: StringQueryOperatorInput
     children: NodeFilterListInput
     github: StringQueryOperatorInput
@@ -2163,13 +2106,20 @@ input ContributorYamlFilterInput {
     twitter: StringQueryOperatorInput
 }
 
-input ContributorYamlFilterListInput {
-    elemMatch: ContributorYamlFilterInput
+input AuthorsYamlFilterListInput {
+    elemMatch: AuthorsYamlFilterInput
 }
 
-input ContributorYamlSortInput {
-    fields: [ContributorYamlFieldsEnum]
+input AuthorsYamlSortInput {
+    fields: [AuthorsYamlFieldsEnum]
     order: [SortOrderEnum] = [ASC]
+}
+
+input BooleanQueryOperatorInput {
+    eq: Boolean
+    in: [Boolean]
+    ne: Boolean
+    nin: [Boolean]
 }
 
 input DateQueryOperatorInput {
@@ -2249,7 +2199,7 @@ input FileFilterInput {
     childImageSharp: ImageSharpFilterInput
     childMarkdownRemark: MarkdownRemarkFilterInput
     children: NodeFilterListInput
-    childrenContributorYaml: ContributorYamlFilterListInput
+    childrenAuthorsYaml: AuthorsYamlFilterListInput
     ctime: DateQueryOperatorInput
     ctimeMs: FloatQueryOperatorInput
     dev: IntQueryOperatorInput
@@ -2447,7 +2397,7 @@ input MarkdownRemarkFilterInput {
 }
 
 input MarkdownRemarkFrontmatterFilterInput {
-    author: ContributorYamlFilterInput
+    author: AuthorsYamlFilterInput
     date: DateQueryOperatorInput
     description: StringQueryOperatorInput
     path: StringQueryOperatorInput
@@ -2616,30 +2566,20 @@ input SitePluginPackageJsonPeerDependenciesFilterListInput {
 }
 
 input SitePluginPluginOptionsFilterInput {
-    backgroundColor: StringQueryOperatorInput
     background_color: StringQueryOperatorInput
-    disableBgImageOnAlpha: BooleanQueryOperatorInput
     display: StringQueryOperatorInput
     icon: StringQueryOperatorInput
-    ignoreFileExtensions: StringQueryOperatorInput
-    linkImagesToOriginal: BooleanQueryOperatorInput
-    loading: StringQueryOperatorInput
-    markdownCaptions: BooleanQueryOperatorInput
     maxWidth: IntQueryOperatorInput
     name: StringQueryOperatorInput
     path: StringQueryOperatorInput
     pathCheck: BooleanQueryOperatorInput
-    pathPrefix: StringQueryOperatorInput
     pathToConfigModule: StringQueryOperatorInput
     plugins: SitePluginPluginOptionsPluginsFilterListInput
     short_name: StringQueryOperatorInput
     shortname: StringQueryOperatorInput
-    showCaptions: BooleanQueryOperatorInput
     start_url: StringQueryOperatorInput
     theme_color: StringQueryOperatorInput
-    tracedSVG: BooleanQueryOperatorInput
     trackingId: StringQueryOperatorInput
-    withWebp: BooleanQueryOperatorInput
     wrapperStyle: StringQueryOperatorInput
 }
 
@@ -2659,17 +2599,7 @@ input SitePluginPluginOptionsPluginsFilterListInput {
 }
 
 input SitePluginPluginOptionsPluginsPluginOptionsFilterInput {
-    backgroundColor: StringQueryOperatorInput
-    disableBgImageOnAlpha: BooleanQueryOperatorInput
-    ignoreFileExtensions: StringQueryOperatorInput
-    linkImagesToOriginal: BooleanQueryOperatorInput
-    loading: StringQueryOperatorInput
-    markdownCaptions: BooleanQueryOperatorInput
     maxWidth: IntQueryOperatorInput
-    pathPrefix: StringQueryOperatorInput
-    showCaptions: BooleanQueryOperatorInput
-    tracedSVG: BooleanQueryOperatorInput
-    withWebp: BooleanQueryOperatorInput
     wrapperStyle: StringQueryOperatorInput
 }
 
