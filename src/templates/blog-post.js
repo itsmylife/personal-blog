@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
-import Bio from "../components/bio"
+import Author from "../components/author"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -12,8 +12,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    const pathname =
-      typeof window !== "undefined" ? window.location.pathname : ""
+    const pathname = typeof window !== "undefined" ? window.location.pathname : ""
     const disqusConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
@@ -44,9 +43,9 @@ class BlogPostTemplate extends React.Component {
           }}
         />
 
-        <Disqus config={disqusConfig} />
+        <Author details={post.frontmatter.author} />
 
-        <Bio />
+        <Disqus config={disqusConfig} />
 
         <ul
           style={{
@@ -80,23 +79,29 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-        author
-        siteUrl
-      }
+    query BlogPostBySlug($slug: String!) {
+        site {
+            siteMetadata {
+                title
+                author
+                siteUrl
+            }
+        }
+        markdownRemark(fields: { slug: { eq: $slug } }) {
+            id
+            excerpt(pruneLength: 160)
+            html
+            frontmatter {
+                title
+                date(formatString: "MMMM DD, YYYY")
+                description
+                author {
+                    id
+                    name
+                    twitter
+                    github
+                }
+            }
+        }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
-      excerpt(pruneLength: 160)
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD, YYYY")
-        description
-      }
-    }
-  }
 `
