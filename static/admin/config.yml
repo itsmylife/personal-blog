@@ -12,6 +12,7 @@ collections:
     preview_path: blog/{{slug}}
     create: true
     fields:
+      - { name: author, label: Author, widget: "select", options: ["simsekismail", "simsekelif"], default: "simsekismail" }
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
