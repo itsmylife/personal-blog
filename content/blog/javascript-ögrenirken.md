@@ -1,6 +1,6 @@
 ---
 author: simsekelif
-path: JavaScript ögrenirken...
+path: javascript-ogrenirken
 date: 2019-10-19T11:31:42.587Z
 title: JavaScript Ögrenirken...
 description: JavaScript ögrenme yolundaki adimlarim.
