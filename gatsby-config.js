@@ -10,6 +10,9 @@ module.exports = {
       github: `itsmylife`,
     },
   },
+  mapping: {
+    "MarkdownRemark.frontmatter.author": "AuthorsYaml",
+  },
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
@@ -18,6 +21,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
