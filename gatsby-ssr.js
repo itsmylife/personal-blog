@@ -31,11 +31,3 @@ exports.onRenderBody = ({setHeadComponents, setPreBodyComponents}) => {
     />,
   ]);
 };
-
-exports.wrapRootElement = ({element}) => {
-  return (
-    <Reporter.ErrorReporter>
-      {element}
-    </Reporter.ErrorReporter>
-  );
-}
